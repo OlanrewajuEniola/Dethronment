@@ -18,10 +18,10 @@ html{
 }
 
 body{
+    color: var(--color-body);
     font-family: Inter, Arial, Helvetica, sans-serif;
     font-size: 2.4rem;
     line-height: 1.5;
-    color: var(--color-body);
     }
 
 h1,
@@ -69,9 +69,9 @@ a{
 
 .link-arrow{
     color: var(--color-accent);
-    text-transform: uppercase;
     font-size: 2rem;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .link-arrow::after{
@@ -151,13 +151,13 @@ a{
 }
 
 .icon-container{
+    align-items: center;
     background:#f3f9fa;
-    width: 64px;
-    height: 64px;
     border-radius: 100%;
     display: inline-flex;
+    height: 64px;
     justify-content: center;
-    align-items: center;
+    width: 64px;
 }
 
             /*Buttons*/
@@ -204,10 +204,10 @@ a{
     background:#cf1546;
 }
 
-/*.btn--block{
+.btn--block{
     width:100%;
     display:inline-block;
-}*/
+}
 
 .btn--outline{
     background: #fff;
