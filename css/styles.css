@@ -263,3 +263,28 @@ a{
         font-size: 1.5rem;
     }
 }
+
+                /*Cards*/
+              
+.card{
+    border-radius: 7px;
+    box-shadow: 0 0 20px 10px #f3f3f3;
+    width: 30%;
+    overflow: hidden;   
+}
+
+.card__header{
+    background: var(--color-primary);
+    color: white;
+    padding: 3rem 4rem;
+    font-weight: 600;
+}
+
+.card__body{
+    color: var(--color-body);
+    padding: 3rem 4rem;
+}
+
+.card--primary{
+    text-align: center;
+}
