@@ -114,6 +114,8 @@ a{
 
 .badge--small{
     font-size: 1.6rem;
+    padding: 0.5rem 1.5rem;
+
 }
 
 @media screen and (min-width: 1024px){
@@ -124,20 +126,26 @@ a{
         font-size: 1.2rem;
     }
 }
+.list{
+    list-style: none;
+    padding-left: 0;
+    color: var(--color-headings);
+    font-size: bold;
+}
 
 .list--tick{
     list-style-image: url(components/images/tick.svg);
-    padding-left: 3rem;
+    margin-right: 3rem;
 }
 
 .list--tick .list__item{
-    margin-bottom: 1rem;
     padding-left: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 @media screen and (min-width: 1024px){
     .list--tick .list__item{
-        padding-left: 0rem;
+        padding-left: 0;
     }
 }
 
@@ -215,6 +223,7 @@ a{
     background: #fff;
     color: var(--color-headings);
     border: 2px solid var(--color-headings);
+    outline: 0;
 }
 
 .btn--outline:hover{
@@ -269,12 +278,11 @@ a{
 .card{
     border-radius: 7px;
     box-shadow: 0 0 20px 10px #f3f3f3;
-    width: 30%;
     overflow: hidden;   
 }
 
 .card__header{
-    background: var(--color-primary);
+    background: var(--color-secondary);
     color: white;
     padding: 3rem 4rem;
     font-weight: 600;
@@ -287,4 +295,70 @@ a{
 
 .card--primary{
     text-align: center;
+}
+
+.card--secondary .badge--secondary{
+    background: #02cdf1;
+}
+
+                /*Plans*/
+
+.plan__name{
+    margin: 0;
+    color: #fff;
+    font-weight: 500;
+    font-size: 2.4rem;
+}
+
+.plan__price{
+    font-size: 6rem;
+}
+
+.plan__billing-cycle{
+    font-size: 2.4rem;
+    font-weight: 300;
+    opacity: 0.8;
+    margin-right: 1rem;
+}
+
+.plan__description{
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    display: block;
+}
+
+.plan .list__item{
+    margin-bottom: 2rem;
+}
+
+.plan--popular .card__header{
+    position: relative;
+}
+
+.plan--popular .card__header::before{
+    content: url(components/images/popular.svg);
+    width: 40px;
+    display: inline-block;
+    position: absolute;
+    top: -6px;
+    right: 5%;
+}
+
+@media screen and (min-width:1024px){
+    .plan__name{
+        font-size: 1.4rem;
+    }
+
+    .plan__price{
+        font-size: 5rem;
+    }
+
+    .plan__billing-cycle{
+        font-size: 1.6rem;
+    }
+
+    .plan__description{
+        font-size: 1.7rem;
+    }
 }
