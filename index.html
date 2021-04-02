@@ -10,69 +10,123 @@
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
-        <section class="block container block-plans">
-            <div class="grid grid--1x3">
-             <div class="plan">
-                 <div class="card card--secondary">
-                     <header class="card__header">
-                         <h3 class="plan__name">Entry</h3>
-                         <span class="plan__price">$14</span>
-                         <span class="plan__billing-cycle">/month</span>
-                         <span class="badge badge--secondary badge--small">10% OFF</span>
-                         <span class="plan__description">Easy start on the cloud</span>
-                     </header>
-                     <div class="card__body">
-                         <ul class="list list--tick">
-                             <li class="list__item">Unlimited Websites</li>
-                             <li class="list__item">Unlimited Bandwidth</li>
-                             <li class="list__item">100 GB SSD Storage</li>
-                             <li class="list__item">3 GB RAM</li>
-                         </ul>
-                         <button class="btn btn--outline btn--block">BUY NOW</button> 
-                     </div>
-                 </div>
-             </div>
-             <div class="plan plan--popular">
-                 <div class="card card--primary">
-                     <header class="card__header">
-                         <h3 class="plan__name">Entry</h3>
-                         <span class="plan__price">$14</span>
-                         <span class="plan__billing-cycle">/month</span>
-                         <span class="badge badge--primary badge--small">10% OFF</span>
-                         <span class="plan__description">Easy start on the cloud</span>
-                     </header>
-                     <div class="card__body">
-                         <ul class="list list--tick">
-                             <li class="list__item">Unlimited Websites</li>
-                             <li class="list__item">Unlimited Bandwidth</li>
-                             <li class="list__item">100 GB SSD Storage</li>
-                             <li class="list__item">3 GB RAM</li>
-                         </ul>
-                         <button class="btn btn--outline btn--block">BUY NOW</button> 
-                     </div>
-                 </div>
-             </div>
-             <div class="plan">
-                 <div class="card card--secondary">
-                     <header class="card__header">
-                         <h3 class="plan__name">Entry</h3>
-                         <span class="plan__price">$14</span>
-                         <span class="plan__billing-cycle">/month</span>
-                         <span class="badge badge--secondary badge--small">10% OFF</span>
-                         <span class="plan__description">Easy start on the cloud</span>
-                     </header>
-                     <div class="card__body">
-                         <ul class="list list--tick">
-                             <li class="list__item">Unlimited Websites</li>
-                             <li class="list__item">Unlimited Bandwidth</li>
-                             <li class="list__item">100 GB SSD Storage</li>
-                             <li class="list__item">3 GB RAM</li>
-                         </ul>
-                         <button class="btn btn--outline btn--block">BUY NOW</button> 
-                     </div>
-                 </div>
-             </div>
-            </div>
+        <section class="block container">
+            <header class="block__header">
+                <h2>Host on the Cloud to Keep Growing</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, voluptas.
+                </p>
+            </header>
+            <article class="grid grid--1x2 feature">
+                <div class="feature__content">
+                    <span class="icon-container">
+                        <svg class="icon icon--primary">
+                            <use xlink:href="css/components/images/sprite.svg#easy"></use>
+                        </svg>
+                    </span>
+                    <h3 class="feature__heading">Super Easy to Use</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Omnis, veniam sapiente. In tempora, 
+                        laborum delectus ad numquam quae pariatur facere?
+                    </p>
+                    <a href="#" class="link-arrow">Learn more</a>
+                </div>
+                <picture>
+                    <source 
+                        type="image/webp" 
+                        srcset="css/components/images/easyy.webp x1, css/components/images/easy@2x.webp 2x"
+                    >
+                    <source 
+                        type="image/jpg" 
+                        srcset="css/components/images/easyy.jpg x1, css/components/images/easy@2x.jpg 2x"
+                    >
+                        <img class="feature__image" src="css/components/images/easy@2x.jpg" alt=""/>
+                </picture>
+            </article>
+        </section>
+        <section class="block container">
+            <article class="grid grid--1x2 feature">
+                <picture>
+                    <source 
+                        type="image/webp" 
+                        srcset="css/components/images/fast.webp x1, css/components/images/fast@2x.webp 2x"
+                    >
+                    <source 
+                        type="image/jpg" 
+                        srcset="css/components/images/fast.jpg x1, css/components/images/fast@2x.jpg 2x"
+                    >
+                        <img class="feature__image" src="css/components/images/fast@2x.jpg" alt=""/>
+                </picture>
+                <div class="feature__content">
+                    <span class="icon-container">
+                        <svg class="icon icon--primary">
+                            <use xlink:href="css/components/images/sprite.svg#computer"></use>
+                        </svg>
+                    </span>
+                    <h3 class="feature__heading">Super Fast Websites</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Omnis, veniam sapiente. In tempora, 
+                        laborum delectus ad numquam quae pariatur facere?
+                    </p>
+                    <a href="#" class="link-arrow">Learn more</a>
+                </div>
+            </article>
+        </section>
+        <section class="block container">
+            <article class="grid grid--1x2 feature">
+                <div class="feature__content">
+                    <span class="icon-container">
+                        <svg class="icon icon--primary">
+                            <use xlink:href="css/components/images/sprite.svg#wordpress"></use>
+                        </svg>
+                    </span>
+                    <h3 class="feature__heading">Wordpress Made Easy</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Omnis, veniam sapiente. In tempora, 
+                        laborum delectus ad numquam quae pariatur facere?
+                    </p>
+                    <a href="#" class="link-arrow">Learn more</a>
+                </div>
+                <picture>
+                    <source 
+                        type="image/webp" 
+                        srcset="css/components/images/wordpress.webp x1, css/components/images/wordpress@2x.webp 2x"
+                    >
+                    <source 
+                        type="image/jpg" 
+                        srcset="css/components/images/wordpress.jpg x1, css/components/images/wordpress@2x.jpg 2x"
+                    >
+                        <img class="feature__image" src="css/components/images/wordpress@2x.jpg" alt=""/>
+                </picture>
+            </article>
+        </section>
+        <section class="block container">
+            <article class="grid grid--1x2 feature">
+                <picture>
+                    <source 
+                        type="image/webp" 
+                        srcset="css/components/images/support.webp x1, css/components/images/support@2x.webp 2x"
+                    >
+                    <source 
+                        type="image/jpg" 
+                        srcset="css/components/images/support.jpg x1, css/components/images/support@2x.jpg 2x"
+                    >
+                        <img class="feature__image" src="css/components/images/support@2x.jpg" alt=""/>
+                </picture>
+                <div class="feature__content">
+                    <span class="icon-container">
+                        <svg class="icon icon--primary">
+                            <use xlink:href="css/components/images/sprite.svg#clock"></use>
+                        </svg>
+                    </span>
+                    <h3 class="feature__heading">24/7 Expert Support</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Omnis, veniam sapiente. In tempora, 
+                        laborum delectus ad numquam quae pariatur facere?
+                    </p>
+                    <a href="#" class="link-arrow">Learn more</a>
+                </div>
+            </article>
         </section>
         <script src="css/components/js/main.js"></script>
     </body> 
