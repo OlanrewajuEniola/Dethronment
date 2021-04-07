@@ -10,123 +10,71 @@
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
-        <section class="block container">
+        <section class="block block--dark block--skewed-right block-showcase">
             <header class="block__header">
-                <h2>Host on the Cloud to Keep Growing</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, voluptas.
-                </p>
+                <h2 class="block__heading">User-friendly Control Panel</h2>
             </header>
-            <article class="grid grid--1x2 feature">
-                <div class="feature__content">
-                    <span class="icon-container">
-                        <svg class="icon icon--primary">
-                            <use xlink:href="css/components/images/sprite.svg#easy"></use>
-                        </svg>
-                    </span>
-                    <h3 class="feature__heading">Super Easy to Use</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                         Omnis, veniam sapiente. In tempora, 
-                        laborum delectus ad numquam quae pariatur facere?
-                    </p>
-                    <a href="#" class="link-arrow">Learn more</a>
-                </div>
-                <picture>
+            <div class="container grid grid--1x2">
+                <picture class="block-showcase__image">
                     <source 
-                        type="image/webp" 
-                        srcset="css/components/images/easyy.webp x1, css/components/images/easy@2x.webp 2x"
-                    >
+                        type="image/webp" srcset="css/components/images/ipad.webp x1, css/components/images/ipad@2x.webp x2"
+                    />
                     <source 
-                        type="image/jpg" 
-                        srcset="css/components/images/easyy.jpg x1, css/components/images/easy@2x.jpg 2x"
-                    >
-                        <img class="feature__image" src="css/components/images/easy@2x.jpg" alt=""/>
+                        type="image/png" srcset="css/components/images/ipad.png x1, css/components/images/ipad@2x.png x2"
+                    />
+                    <img src="css/components/images/ipad.png" alt="">
                 </picture>
-            </article>
-        </section>
-        <section class="block container">
-            <article class="grid grid--1x2 feature">
-                <picture>
-                    <source 
-                        type="image/webp" 
-                        srcset="css/components/images/fast.webp x1, css/components/images/fast@2x.webp 2x"
-                    >
-                    <source 
-                        type="image/jpg" 
-                        srcset="css/components/images/fast.jpg x1, css/components/images/fast@2x.jpg 2x"
-                    >
-                        <img class="feature__image" src="css/components/images/fast@2x.jpg" alt=""/>
-                </picture>
-                <div class="feature__content">
-                    <span class="icon-container">
-                        <svg class="icon icon--primary">
-                            <use xlink:href="css/components/images/sprite.svg#computer"></use>
-                        </svg>
-                    </span>
-                    <h3 class="feature__heading">Super Fast Websites</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                         Omnis, veniam sapiente. In tempora, 
-                        laborum delectus ad numquam quae pariatur facere?
-                    </p>
-                    <a href="#" class="link-arrow">Learn more</a>
-                </div>
-            </article>
-        </section>
-        <section class="block container">
-            <article class="grid grid--1x2 feature">
-                <div class="feature__content">
-                    <span class="icon-container">
-                        <svg class="icon icon--primary">
-                            <use xlink:href="css/components/images/sprite.svg#wordpress"></use>
-                        </svg>
-                    </span>
-                    <h3 class="feature__heading">Wordpress Made Easy</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                         Omnis, veniam sapiente. In tempora, 
-                        laborum delectus ad numquam quae pariatur facere?
-                    </p>
-                    <a href="#" class="link-arrow">Learn more</a>
-                </div>
-                <picture>
-                    <source 
-                        type="image/webp" 
-                        srcset="css/components/images/wordpress.webp x1, css/components/images/wordpress@2x.webp 2x"
-                    >
-                    <source 
-                        type="image/jpg" 
-                        srcset="css/components/images/wordpress.jpg x1, css/components/images/wordpress@2x.jpg 2x"
-                    >
-                        <img class="feature__image" src="css/components/images/wordpress@2x.jpg" alt=""/>
-                </picture>
-            </article>
-        </section>
-        <section class="block container">
-            <article class="grid grid--1x2 feature">
-                <picture>
-                    <source 
-                        type="image/webp" 
-                        srcset="css/components/images/support.webp x1, css/components/images/support@2x.webp 2x"
-                    >
-                    <source 
-                        type="image/jpg" 
-                        srcset="css/components/images/support.jpg x1, css/components/images/support@2x.jpg 2x"
-                    >
-                        <img class="feature__image" src="css/components/images/support@2x.jpg" alt=""/>
-                </picture>
-                <div class="feature__content">
-                    <span class="icon-container">
-                        <svg class="icon icon--primary">
-                            <use xlink:href="css/components/images/sprite.svg#clock"></use>
-                        </svg>
-                    </span>
-                    <h3 class="feature__heading">24/7 Expert Support</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                         Omnis, veniam sapiente. In tempora, 
-                        laborum delectus ad numquam quae pariatur facere?
-                    </p>
-                    <a href="#" class="link-arrow">Learn more</a>
-                </div>
-            </article>
+                <ul class="list">
+                    <li>
+                        <div class="media">
+                            <div class="media__image">
+                                <svg class="icon icon--primary">
+                                    <use xlink:href="css/components/images/sprite.svg#snap"></use>
+                                </svg>
+                            </div>
+                            <div class="media__body">
+                                <h3 class="media__header">Easy start & managed updates</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing 
+                                    elit. Sequi ad, asperiores accusantium praesentium 
+                                    odio cum iure explicabo doloremque voluptates 
+                                    dolorem.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="media">
+                            <div class="media__image">
+                                <svg class="icon icon--primary">
+                                    <use xlink:href="css/components/images/sprite.svg#growth"></use>
+                                </svg>
+                            </div>
+                            <div class="media__body">
+                                <h3 class="media__header">Staging, GIT & WP-CLI</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing 
+                                    elit. Sequi ad, asperiores accusantium praesentium 
+                                    odio cum iure explicabo doloremque voluptates 
+                                    dolorem.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="media">
+                            <div class="media__image">
+                                <svg class="icon icon--primary">
+                                    <use xlink:href="css/components/images/sprite.svg#wordpress"></use>
+                                </svg>
+                            </div>
+                            <div class="media__body">
+                                <h3 class="media__header">Dynamic Coaching & More</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing 
+                                    elit. Sequi ad, asperiores accusantium praesentium 
+                                    odio cum iure explicabo doloremque voluptates 
+                                    dolorem.</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </section>
         <script src="css/components/js/main.js"></script>
     </body> 
